@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		27FDC7911F0E24C70016D57C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDC7901F0E24C70016D57C /* main.m */; };
-		27FDC7941F0E24C70016D57C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDC7931F0E24C70016D57C /* AppDelegate.m */; };
-		27FDC7971F0E24C70016D57C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDC7961F0E24C70016D57C /* ViewController.m */; };
 		27FDC79A1F0E24C70016D57C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FDC7981F0E24C70016D57C /* Main.storyboard */; };
 		27FDC79C1F0E24C70016D57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FDC79B1F0E24C70016D57C /* Assets.xcassets */; };
 		27FDC79F1F0E24C70016D57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FDC79D1F0E24C70016D57C /* LaunchScreen.storyboard */; };
 		27FDC7AA1F0E24C70016D57C /* systemmapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDC7A91F0E24C70016D57C /* systemmapTests.m */; };
 		27FDC7B51F0E24C70016D57C /* systemmapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDC7B41F0E24C70016D57C /* systemmapUITests.m */; };
+		27FDC7C81F0E25350016D57C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDC7C31F0E25350016D57C /* ViewController.m */; };
+		27FDC7C91F0E25350016D57C /* LocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDC7C51F0E25350016D57C /* LocationConverter.m */; };
+		27FDC7CA1F0E25350016D57C /* myAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDC7C71F0E25350016D57C /* myAnnotation.m */; };
+		27FDC7CD1F0E254B0016D57C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDC7CC1F0E254B0016D57C /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +40,6 @@
 		27FDC78C1F0E24C70016D57C /* systemmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = systemmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FDC7901F0E24C70016D57C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27FDC7921F0E24C70016D57C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		27FDC7931F0E24C70016D57C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		27FDC7951F0E24C70016D57C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		27FDC7961F0E24C70016D57C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		27FDC7991F0E24C70016D57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27FDC79B1F0E24C70016D57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27FDC79E1F0E24C70016D57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,14 @@
 		27FDC7B01F0E24C70016D57C /* systemmapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = systemmapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FDC7B41F0E24C70016D57C /* systemmapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = systemmapUITests.m; sourceTree = "<group>"; };
 		27FDC7B61F0E24C70016D57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FDC7C21F0E25350016D57C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27FDC7C31F0E25350016D57C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27FDC7C41F0E25350016D57C /* LocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationConverter.h; sourceTree = "<group>"; };
+		27FDC7C51F0E25350016D57C /* LocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationConverter.m; sourceTree = "<group>"; };
+		27FDC7C61F0E25350016D57C /* myAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myAnnotation.h; sourceTree = "<group>"; };
+		27FDC7C71F0E25350016D57C /* myAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myAnnotation.m; sourceTree = "<group>"; };
+		27FDC7CB1F0E253B0016D57C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		27FDC7CC1F0E254B0016D57C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +109,14 @@
 			isa = PBXGroup;
 			children = (
 				27FDC7921F0E24C70016D57C /* AppDelegate.h */,
-				27FDC7931F0E24C70016D57C /* AppDelegate.m */,
-				27FDC7951F0E24C70016D57C /* ViewController.h */,
-				27FDC7961F0E24C70016D57C /* ViewController.m */,
+				27FDC7CC1F0E254B0016D57C /* AppDelegate.m */,
+				27FDC7C21F0E25350016D57C /* ViewController.h */,
+				27FDC7C31F0E25350016D57C /* ViewController.m */,
+				27FDC7C41F0E25350016D57C /* LocationConverter.h */,
+				27FDC7C51F0E25350016D57C /* LocationConverter.m */,
+				27FDC7C61F0E25350016D57C /* myAnnotation.h */,
+				27FDC7C71F0E25350016D57C /* myAnnotation.m */,
+				27FDC7CB1F0E253B0016D57C /* Header.h */,
 				27FDC7981F0E24C70016D57C /* Main.storyboard */,
 				27FDC79B1F0E24C70016D57C /* Assets.xcassets */,
 				27FDC79D1F0E24C70016D57C /* LaunchScreen.storyboard */,
@@ -276,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27FDC7971F0E24C70016D57C /* ViewController.m in Sources */,
-				27FDC7941F0E24C70016D57C /* AppDelegate.m in Sources */,
+				27FDC7C81F0E25350016D57C /* ViewController.m in Sources */,
+				27FDC7CA1F0E25350016D57C /* myAnnotation.m in Sources */,
 				27FDC7911F0E24C70016D57C /* main.m in Sources */,
+				27FDC7C91F0E25350016D57C /* LocationConverter.m in Sources */,
+				27FDC7CD1F0E254B0016D57C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HWQF636ATC;
 				INFOPLIST_FILE = systemmap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Plan.systemmap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HWQF636ATC;
 				INFOPLIST_FILE = systemmap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Plan.systemmap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +534,7 @@
 				27FDC7BB1F0E24C70016D57C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27FDC7BC1F0E24C70016D57C /* Build configuration list for PBXNativeTarget "systemmapTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +543,7 @@
 				27FDC7BE1F0E24C70016D57C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27FDC7BF1F0E24C70016D57C /* Build configuration list for PBXNativeTarget "systemmapUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +552,7 @@
 				27FDC7C11F0E24C70016D57C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

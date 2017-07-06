@@ -2,9 +2,9 @@
 iOS系统高德地图的一般使用
 
 
-1. 地图（MKMapView）的使用
+1.地图（MKMapView）的使用
 
-2. 定位（CLLocationManager）的使用
+2.定位（CLLocationManager）的使用
 
 3.自定义大头针
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274A173B1F31AB06000A3297 /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = 274A173A1F31AB06000A3297 /* NSString+Hashing.m */; };
 		27FDC7911F0E24C70016D57C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDC7901F0E24C70016D57C /* main.m */; };
 		27FDC79A1F0E24C70016D57C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FDC7981F0E24C70016D57C /* Main.storyboard */; };
 		27FDC79C1F0E24C70016D57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FDC79B1F0E24C70016D57C /* Assets.xcassets */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		274A17391F31AB06000A3297 /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
+		274A173A1F31AB06000A3297 /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
 		27FDC78C1F0E24C70016D57C /* systemmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = systemmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FDC7901F0E24C70016D57C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27FDC7921F0E24C70016D57C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				27FDC7921F0E24C70016D57C /* AppDelegate.h */,
+				274A17391F31AB06000A3297 /* NSString+Hashing.h */,
+				274A173A1F31AB06000A3297 /* NSString+Hashing.m */,
 				27FDC7CC1F0E254B0016D57C /* AppDelegate.m */,
 				27FDC7C21F0E25350016D57C /* ViewController.h */,
 				27FDC7C31F0E25350016D57C /* ViewController.m */,
@@ -288,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274A173B1F31AB06000A3297 /* NSString+Hashing.m in Sources */,
 				27FDC7C81F0E25350016D57C /* ViewController.m in Sources */,
 				27FDC7CA1F0E25350016D57C /* myAnnotation.m in Sources */,
 				27FDC7911F0E24C70016D57C /* main.m in Sources */,

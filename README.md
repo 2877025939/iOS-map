@@ -2,6 +2,9 @@
 iOS系统高德地图的一般使用
 
 
+
+#点击右上角的 star、watch 按钮，可以收藏本仓库，看到本仓库的更新！
+
 1.地图（MKMapView）的使用
 
 2.定位（CLLocationManager）的使用

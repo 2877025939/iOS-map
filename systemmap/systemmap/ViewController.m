@@ -108,6 +108,7 @@
             [self.locationManager requestWhenInUseAuthorization];
         }
         
+        
         //开始定位
         [self.locationManager startUpdatingLocation];
         
@@ -173,6 +174,27 @@
     //设置地图显示
     [self.mapView setRegion:theRegion];
     
+    
+    
+//    CLLocationCoordinate2D theCoordinate1;
+//    //latitude纬度
+//    theCoordinate1.latitude = 31.193806;
+//    //longitude经度
+//    theCoordinate1.longitude = 121.606917;
+//    
+//    
+//    CLLocationCoordinate2D theCoordinate2;
+//    
+//    //latitude纬度
+//    theCoordinate2.latitude = 31.191285;
+//    //longitude经度
+//    theCoordinate2.longitude = 121.607031;
+//
+//    //添加大头针
+//    [self addAnnoWithPT:theCoordinate1];
+//    
+//    [self addAnnoWithPT:theCoordinate2];
+    
 }
 
 //定位失败
@@ -204,6 +226,7 @@
 
     userLocation.title = @"现在位置";
     
+    
     CLLocationCoordinate2D theCoordinate;
     //latitude纬度
     theCoordinate.latitude = userLocation.coordinate.latitude;
@@ -211,6 +234,7 @@
     theCoordinate.longitude= userLocation.coordinate.longitude;
     
     [self.mapView setCenterCoordinate:theCoordinate animated:YES];
+    
     
     NSLog(@"用户定位: %f %f",userLocation.coordinate.latitude,userLocation.coordinate.longitude);
     
@@ -260,7 +284,7 @@
 -(void)test{
     
     //根据位置名称转换经纬度
-    [self.geoC geocodeAddressString:@"张江药谷大厦" completionHandler:^(NSArray<CLPlacemark *> * _Nullable placemarks, NSError * _Nullable error) {
+    [self.geoC geocodeAddressString:@"凯信国际广场" completionHandler:^(NSArray<CLPlacemark *> * _Nullable placemarks, NSError * _Nullable error) {
         /**
          *  CLPlacemark
          location : 位置对象
@@ -286,6 +310,9 @@
                 CLLocation *location2 = [[CLLocation alloc] initWithLatitude:_myLatitude longitude:_myLongitude];
                 
                 float distance = [location1 distanceFromLocation:location2];
+                
+                NSLog(@"distance %f",distance);
+                
                 self.str = [NSString stringWithFormat:@"距离:%.3fkm",distance/1000];
                 
                 //添加大头针

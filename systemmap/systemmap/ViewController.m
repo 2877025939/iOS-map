@@ -23,17 +23,17 @@
 }
 
 /** 定位 */
-@property(nonatomic,strong)CLLocationManager *locationManager;
+@property (nonatomic,strong) CLLocationManager *locationManager;
 /** 地图 */
-@property(nonatomic,strong)MKMapView * mapView;
+@property (nonatomic,strong) MKMapView * mapView;
 /** 地理编码 */
 @property (nonatomic, strong) CLGeocoder *geoC;
 
 /** 目标位置标题 */
-@property (nonatomic,strong)NSString *str;
+@property (nonatomic,copy) NSString *str;
 
 /** 发送请求给服务器 */
-@property(strong,nonatomic)MKDirections *directions;
+@property (nonatomic,strong) MKDirections *directions;
 
 @end
 
@@ -130,13 +130,9 @@
 -(void)addAnnoWithPT:(CLLocationCoordinate2D)pt{
     
     myAnnotation *anno = [[myAnnotation alloc] init];
-    
     anno.coordinate = pt;
-
     anno.title = self.str;
-    
     anno.subtitle = @"张江药谷大厦";
-    
     [self.mapView addAnnotation:anno];
     
 }
@@ -148,7 +144,6 @@
     
     //定位：
     CLLocation *currLocation  =[locations lastObject];
-    
     NSLog(@"定位方法: %@ ",currLocation.description);
     //重置定位
     CLLocationCoordinate2D theCoordinate;
@@ -232,10 +227,7 @@
     theCoordinate.latitude = userLocation.coordinate.latitude;
     //longitude经度
     theCoordinate.longitude= userLocation.coordinate.longitude;
-    
     [self.mapView setCenterCoordinate:theCoordinate animated:YES];
-    
-    
     NSLog(@"用户定位: %f %f",userLocation.coordinate.latitude,userLocation.coordinate.longitude);
     
 }
